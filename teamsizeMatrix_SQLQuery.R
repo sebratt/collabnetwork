@@ -7,8 +7,8 @@ library(dbConnect)
 library(splitstackshape)
 library(RMySQL)
 
-con<-dbConnect(MySQL(),user="GenBankUser", password="HH16collabnet",host="metadatalab.syr.edu", dbname="test")
-conn <-dbConnect(MySQL(),user="GenBankUser", password="HH16collabnet",host="metadatalab.syr.edu", dbname="genbank")
+con<-dbConnect(MySQL(),user="REMOVED", password="PASSWORD REMOVED FOR SECURITY",host="REMOVED FOR SECURITY", dbname="test")
+conn <-dbConnect(MySQL(),user="REMOVED", password="PASSWORD REMOVED FOR SECURITY",host="REMOVED FOR SECURITY", dbname="genbank")
 
 # Get Patent Unique Numbers for patent per year analysis
 dbListTables(con)
