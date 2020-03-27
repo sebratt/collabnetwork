@@ -11,7 +11,7 @@
 
 install.packages("dbConnect")
 library(dbConnect)
-con<-dbConnect(MySQL(), user="GenBankUser", password="HH16collabnet", host="metadatalab.syr.edu", dbname="genbank2018")
+con<-dbConnect(MySQL(), user="#####", password="########", host="######", dbname="genbank2018")
 
 test<-dbGetQuery(con, "SELECT * FROM Reference LIMIT 10;")
 # See how there is a dataset associated with the publication according to the id? 
